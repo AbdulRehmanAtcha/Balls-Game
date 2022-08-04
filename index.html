@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button style="width: 150px; height: 40px; font-size: 18px; cursor: pointer;" onClick="change()">Change Colour</button>
+    <div class="container">
+        
+        <div class="left">
+            <h2>Choose Colour:</h2>
+            <p id="colour" ></p>
+        </div>
+        <div class="mid" id="main" style="font-size: 40px; text-align: center;">
+            <div class="line1">
+                <div class="ball" id="1" onClick="choose('1')"></div>   
+                <div class="ball"  id="2" onClick="choose('2')"></div>
+                <div class="ball"  id="3" onClick="choose('3')"></div>
+                <div class="ball" id="4" onClick="choose('4')"></div>
+                <div class="ball" id="5" onClick="choose('5')"></div>
+                <div class="ball" id="6" onClick="choose('6')"></div>
+            </div>
+            <div class="line2">
+                <div class="ball2" id="7" onClick="choose('7')"></div>
+                <div class="ball2" id="8" onClick="choose('8')"></div>
+                <div class="ball2" id="9" onClick="choose('9')"></div>
+                <div class="ball2" id="10" onClick="choose('10')"></div>
+                <div class="ball2" id="11" onClick="choose('11')"></div>
+                <div class="ball2" id="12" onClick="choose('12')"></div>
+            </div>
+            <div class="line3">
+                <div class="ball3" id="13" onClick="choose('13')"></div>
+                <div class="ball3" id="14" onClick="choose('14')"></div>
+                <div class="ball3" id="15" onClick="choose('15')"></div>
+                <div class="ball3" id="16" onClick="choose('16')"></div>
+                <div class="ball3" id="17" onClick="choose('17')"></div>
+                <div class="ball3" id="18" onClick="choose('18')"></div>
+            </div>
+            <div class="line4">
+                <div class="ball4" id="19" onClick="choose('19')"></div>
+                <div class="ball4" id="20" onClick="choose('20')"></div>
+                <div class="ball4" id="21" onClick="choose('21')"></div>
+                <div class="ball4" id="22" onClick="choose('22')"></div>
+                <div class="ball4" id="23" onClick="choose('23')"></div>
+                <div class="ball4" id="24" onClick="choose('24')"></div>
+            </div>
+            <div class="line5">
+                <div class="ball5" id="25" onClick="choose('25')"></div>
+                <div class="ball5" id="26" onClick="choose('26')"></div>
+                <div class="ball5" id="27" onClick="choose('27')"></div>
+                <div class="ball5" id="28" onClick="choose('28')"></div>
+                <div class="ball5" id="29" onClick="choose('29')"></div>
+                <div class="ball5" id="30" onClick="choose('30')"></div>
+            </div>
+        </div>
+        <div class="right">
+            <h2>Your Score:</h2>
+            <p id="score" ></p>
+            <!-- style="font-size: 30px;" -->
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
